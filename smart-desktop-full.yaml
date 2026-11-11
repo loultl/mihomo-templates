@@ -1,5 +1,3 @@
-remnawave:
-  includeHiddenHosts: true
 mixed-port: 7890
 allow-lan: true
 bind-address: "*"
@@ -149,7 +147,6 @@ dns:
     - https://9.9.9.9/dns-query#🇷🇺 Без VPN
   direct-nameserver:
     # DNS для сайтов идущих через 🇷🇺 Без VPN
-    - https://77.88.8.8/dns-query#🇷🇺 Без VPN # Yandex DNS
     - https://8.8.8.8/dns-query#🇷🇺 Без VPN
   nameserver:
     # Сервер по умолчанию, DNS запросы будут идти через то, что выбрано в "Остальные сайты"
